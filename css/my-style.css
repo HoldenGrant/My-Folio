@@ -12,6 +12,7 @@ header{
     border-width: 0px;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.34);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.34);
+    background-color: rgba(255, 255, 255, 0.50);
     /*background-color: rgba(0,0,0,0.0);
     background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
