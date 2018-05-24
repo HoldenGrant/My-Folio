@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
    $("#work-menu").on('click', function(){
    	// alert("test");
    	$(this).addClass('move-left');
@@ -31,4 +31,19 @@ $(function(){
           $('#my-work .side-black .side-border').css({'width':'0px','transition': '.5s'});
         }  // out
     );
+
+    // $("#gallery-images-holder .card").slice(0, 6).show();
+    // $("#loadMore").on('click', function (e) {
+    //     e.preventDefault();
+    //     $("div:hidden").slice(0, 4).slideDown();
+    //     if ($("div:hidden").length == 0) {
+    //         $("#load").fadeOut('slow');
+    //     }
+    //     $('html,body').animate({
+    //         scrollTop: $(this).offset().top
+    //     }, 1500);
+    // });
+    // setTimeout(function(){
+    //     $('#gallery-images-holder .card').fadeIn(500);
+    // }, 5000);
 });
