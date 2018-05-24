@@ -33,18 +33,25 @@ header{
     color: #e4e4e4;
     text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.29);
 }
-a#work-menu {
+#work-menu, #home-menu {
+	width: 60px;
     position: fixed;
     right: 0;
     top: 50%;
     margin-top: -75px;
     height: 150px;
     background-color: white;
-    width: 130px;
     box-shadow: -2px 0px 7px -1px rgba(0, 0, 0, 0.26);
     transition: .5s;
+    display: table;
 }
-a#work-menu:after {
+#work-menu span, #home-menu span{
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+#work-menu:after, #home-menu:after {
     content: "";
     position: fixed;
     top: 0;
@@ -55,20 +62,21 @@ a#work-menu:after {
     transition: .5s;
     box-shadow: none;
 }
-/*.side-block {
-    position: fixed;
-    top: 0;
-    width: 20px;
-    height: 100%;
-    right: -20px;
-    background-color: #313131;
-}*/
 #work-menu:hover{
     right: 20px;
+    width: 130px;
+}
+#home-menu:hover{
+    left: 20px !important;
+    width: 130px;
 }
 #work-menu:hover:after{
     right: 0px;
-    box-shadow: -2px 0px 7px -1px rgba(0, 0, 0, 0.26);
+    /*box-shadow: -2px 0px 7px -1px rgba(0, 0, 0, 0.26);*/
+}
+#home-menu:hover:after{
+    left: 0px;
+    /*box-shadow: -2px 0px 7px -1px rgba(0, 0, 0, 0.26);*/
 }
 #work-menu.move-left:after{
     right: 100% !important;
@@ -86,6 +94,28 @@ a#work-menu:after {
 .move-left{
     right: 100% !important;
 }
+
 .show-canvas{
     right: 0 !important;
+}
+#home-menu{
+    right: -130px;
+    left: 100%;
+    z-index: 1;
+    /*width: 60px;*/
+    transition: .5s;
+}
+.work-menu-right{
+	right: 100% !important;
+    left: 0 !important;
+}
+#home-menu:after {
+    left: -20px;
+    background: #fff;
+}
+#my-work.show-canvas #home-menu {
+    left: 0;
+}
+.side-black {
+    position: relative;
 }
