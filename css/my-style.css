@@ -9,6 +9,15 @@ header{
 	background-size: cover;
 	background-position: center;
 }
+/*@font-face {
+font-family: "Harabara Bold";
+src: url("css/fonts/Harabara.eot");
+src: 
+url("css/fonts/Harabara.woff") format("woff"),
+url("css/fonts/Harabara.otf") format("opentype"),
+url("css/fonts/Harabara.svg#filename") format("svg");
+}*/
+
 .navbar {
     border-width: 0px;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.34);
