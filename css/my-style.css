@@ -149,6 +149,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
     left: 0px;
     top: 0;
     background-color: white;
+        z-index: 1;
 }
 #gallery-container {
     overflow-x: hidden;
@@ -183,3 +184,11 @@ opacity: 1;
     background-color: #fff;
     color: #33739E;
 }*/
+
+@media screen and (max-width: 767px) {
+    html, body, header{
+		height: 200%;
+		width: 200%;
+	    overflow: hidden;
+	}
+}
