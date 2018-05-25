@@ -101,14 +101,15 @@ url("css/fonts/Harabara.svg#filename") format("svg");
     /*left: 0 !important;*/
 }
 #my-work {
-    position: absolute;
-    top: 0;
-    width: 100%;
+    position: relative;
+    bottom: 100%;
+    width: 0%;
     height: 100%;
     background-color: #313131;
-    right: -100%;
+    left: 100%;
     transition: .3s;
     /*overflow-x: hidden;*/
+    /*margin-top: -100%;*/
 }
 .move-left{
     right: 100% !important;
@@ -117,7 +118,8 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 }
 
 .show-canvas{
-    right: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
 }
 #home-menu{
     right: -130px;
@@ -186,9 +188,5 @@ opacity: 1;
 }*/
 
 @media screen and (max-width: 767px) {
-    html, body, header{
-		height: 200%;
-		width: 200%;
-	    overflow: hidden;
-	}
+    
 }
