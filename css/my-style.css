@@ -155,8 +155,14 @@ url("css/fonts/Harabara.svg#filename") format("svg");
     height: 100%;
 }
 #gallery-images-holder .card{
-    display: none;
+    /*display: none;*/
     /*visibility: hidden;*/
+}
+.hidden {
+opacity: 0;
+}
+.visible {
+opacity: 1;
 }
 /*#loadMore {
     padding: 10px;
