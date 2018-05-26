@@ -187,6 +187,10 @@ opacity: 1;
     color: #33739E;
 }*/
 
-@media screen and (max-width: 767px) {
-    
+@media (max-width: 575px) {
+    .card-columns {
+        -webkit-column-count: 1 !important;
+        -moz-column-count: 1 !important;
+        column-count: 1 !important;
+    }
 }
