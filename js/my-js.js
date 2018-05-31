@@ -32,6 +32,7 @@ jQuery(function($){
 		}, 1200);
     }
 
+    // hover effet
     $('#home-menu').hover(
         function(e){
           $('#my-work .side-black .side-border').css({'width':'20px','transition': '.5s'});
@@ -45,9 +46,10 @@ jQuery(function($){
     //     $("#div1").load("demo_test.txt");
     // }); 
 
+    // get base url
     var l = window.location;
     var base_url = l.protocol + "//" + l.host + "/" + l.pathname.split('/')[1];
-    alert(base_url);
+    console.log(base_url);
 
     // hide our element on page load
 	  
