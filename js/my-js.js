@@ -41,6 +41,14 @@ jQuery(function($){
         }
     );
 
+    // $("button").click(function(){
+    //     $("#div1").load("demo_test.txt");
+    // }); 
+
+    var l = window.location;
+    var base_url = l.protocol + "//" + l.host + "/" + l.pathname.split('/')[1];
+    alert(base_url);
+
     // hide our element on page load
 	  
 
