@@ -9,14 +9,16 @@ header{
 	background-size: cover;
 	background-position: center;
 }
-/*@font-face {
-font-family: "Harabara Bold";
-src: url("css/fonts/Harabara.eot");
+@font-face {
+font-family: "FontAwesome";
+src: url("fonts/fontawesome4/fontawesome-webfont.eot");
 src: 
-url("css/fonts/Harabara.woff") format("woff"),
-url("css/fonts/Harabara.otf") format("opentype"),
-url("css/fonts/Harabara.svg#filename") format("svg");
-}*/
+url("fonts/fontawesome4/fontawesome-webfont.ttf") format("ttf"),
+url("fonts/fontawesome4/fontawesome-webfont.woff") format("woff"),
+url("fonts/fontawesome4/fontawesome-webfont.woff2") format("woff2"),
+url("fonts/fontawesome4/FontAwesome.otf") format("opentype"),
+url("fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
+}
 
 .navbar {
     border-width: 0px;
