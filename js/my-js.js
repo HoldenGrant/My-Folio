@@ -42,9 +42,9 @@ jQuery(function($){
         }
     );
 
-    // $("button").click(function(){
-    //     $("#div1").load("demo_test.txt");
-    // }); 
+    $(document).ready(function(){
+        $("header").load("home.html");
+    }); 
 
     // get base url
     var l = window.location;
