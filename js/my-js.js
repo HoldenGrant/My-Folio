@@ -44,7 +44,7 @@ jQuery(function($){
 
     $(document).ready(function(){
         $("header").load("home.html");
-        $("#my-work div.side-black").load("gallery.html");
+        $("#display-gal").load("gallery.html");
     }); 
 
     // get base url
