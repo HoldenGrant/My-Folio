@@ -52,6 +52,15 @@ jQuery(function($){
     var base_url = l.protocol + "//" + l.host + "/" + l.pathname.split('/')[1];
     console.log(base_url);
 
+
+    //$(document).ready(function(e) {
+    $('.card').on('click', function(){
+        //$imgsrc=$(this + 'img').attr('src');
+        //alert("Image Source Is :"+$imgsrc);
+        alert("test");
+      });
+    //});
+
     // hide our element on page load
 	  
 
