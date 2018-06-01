@@ -143,11 +143,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     position: relative;
         height: 100%;width: 100%;
 }
-.side-border {
-    height: 100%;
-    width: 0px;
-    position: fixed;
-    left: 0px;
+.side-border {height: 100%;width: 0px;position: fixed;left: 0px;
     top: 0;
     background-color: white;
         z-index: 1;
@@ -157,18 +153,11 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     /*overflow-y: scroll;*/
     height: 100%;
 }
-#gallery-images-holder .card{
-    /*display: none;*/
-    /*visibility: hidden;*/
-    opacity: 0;
-}
+#gallery-images-holder .card{opacity: 0;}
+.hidden {opacity: 0;}
+.visible {opacity: 1;}
 
-.hidden {
-opacity: 0;
-}
-.visible {
-opacity: 1;
-}
+#gallery-images-holder .card:hover{cursor: pointer;}
 /*#loadMore {
     padding: 10px;
     text-align: center;
