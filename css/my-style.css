@@ -162,7 +162,9 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
 #gallery-images-holder .card{
     /*display: none;*/
     /*visibility: hidden;*/
+    opacity: 0;
 }
+
 .hidden {
 opacity: 0;
 }
