@@ -1,8 +1,5 @@
-html, body, header{
-	height: 100%;
-	width: 100%;
-    overflow: hidden;
-}
+html, body, header{height: 100%;width: 100%;}
+html, body{overflow: hidden;}
 header{
 	background-image: url("../imgs/ben-neale-245472-unsplash.jpg");
 	background-repeat: no-repeat;
@@ -109,7 +106,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     background-color: #313131;
     left: 100%;
     transition: .3s;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     /*margin-top: -100%;*/
 }
 .move-left{
@@ -129,6 +126,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     /*width: 60px;*/
     transition: .3s;
     background-color: white;
+    position: fixed;
 }
 .work-menu-right{
 	right: 100% !important;
@@ -148,7 +146,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
 .side-border {
     height: 100%;
     width: 0px;
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0;
     background-color: white;
@@ -156,7 +154,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
 }
 #gallery-container {
     overflow-x: hidden;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     height: 100%;
 }
 #gallery-images-holder .card{
