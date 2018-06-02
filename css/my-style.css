@@ -156,7 +156,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
 #gallery-images-holder .card{opacity: 0;}
 .hidden {opacity: 0;}
 .visible {opacity: 1;}
-
+#display-gal {display: block;}
 #gallery-images-holder .card:hover{cursor: pointer;}
 /*#loadMore {
     padding: 10px;

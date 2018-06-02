@@ -18,6 +18,7 @@ jQuery(function($){
 		$(this).removeClass('work-menu-right');
 		$('#gallery-images-holder .card').css('opacity', 0);
 		$('#gallery-images-holder .card').removeClass('fadeInUp');
+    //console.log("test");
 	});
 
    if(window.location.href.indexOf("#work") > -1) {
@@ -42,24 +43,67 @@ jQuery(function($){
         }
     );
 
-    $(document).ready(function(){
+    //$(document).ready(function(){
         $("header").load("home.html");
         $("#display-gal").load("gallery.html");
-    }); 
+
+           
+
+
+
+
+    //}); 
+
+
+function myWorks() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+
+//     $.get("../gallery.html", function(data){
+//     $("#display-gal").load(data);
+// });
 
     // get base url
-    var l = window.location;
-    var base_url = l.protocol + "//" + l.host + "/" + l.pathname.split('/')[1];
-    console.log(base_url);
+    // var l = window.location;
+    // var base_url = l.protocol + "//" + l.host + "/" + l.pathname.split('/')[1];
+    // console.log(base_url);
 
 
+    // $("#gallery-container ").on('click', function(){
+    //   alert("ambot");
+    // });
     //$(document).ready(function(e) {
-    $('.card').on('click', function(){
-        //$imgsrc=$(this + 'img').attr('src');
-        //alert("Image Source Is :"+$imgsrc);
-        alert("test");
-      });
+    // $('#gallery-container .card').hover( function(){
+    //   $(this).on('click', function(){
+    //     console.log("gal test");
+    //   });
+    //     //$imgsrc=$(this + 'img').attr('src');file:///C:/Users/Holden%20Grant/Documents/My-Folio/imgs/chuttersnap-297550-unsplash.jpg
+    //     //alert("Image Source Is :"+$imgsrc);
+        
+    //  });
     //});
+     
+
+
+
+
+
+    // $('#gallery-images-holder .card').hover(
+    //     function(e){
+    //       $(this).find('img').on('click', function(){
+    //         console.log("gal test");
+    //       });
+    //     },
+    //     function(e){
+    //       $(this).find('img').on('click', function(){
+    //         console.log("gal12345 test");
+    //       });
+    //     }
+    // );
+
+
+
+
 
     // hide our element on page load
 	  
