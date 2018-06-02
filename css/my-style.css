@@ -176,7 +176,32 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     background-color: #fff;
     color: #33739E;
 }*/
-
+#left-content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: .3s;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#right-content{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: .3s;
+}
+.show-gal-cont{
+    height: 100% !important;
+}
+.show-gal-cont img{
+    width: 100%;
+}
 @media (max-width: 575px) {
     .card-columns {
         -webkit-column-count: 1 !important;

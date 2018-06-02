@@ -19,6 +19,7 @@ jQuery(function($){
 		$('#gallery-images-holder .card').css('opacity', 0);
 		$('#gallery-images-holder .card').removeClass('fadeInUp');
     //console.log("test");
+    $('#left-content, #right-content').removeClass('show-gal-cont');
 	});
 
    if(window.location.href.indexOf("#work") > -1) {
