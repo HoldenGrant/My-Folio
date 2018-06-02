@@ -55,10 +55,17 @@ jQuery(function($){
 
     //}); 
 
+function sendMail() {
+    var name = $('#contact #name').val();
+    var email = $('#contact #email').val();
+    var message = $('#contact textarea').val();
+    window.location.href = 'mailto:holdengrantcausing@gmail.com?subject=The subject - ' + name + ' (' + email + ')' + '&body=' + message;
+};
 
-function myWorks() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
+
+// function myWorks() {
+//   document.getElementById("demo").innerHTML = "Hello World";
+// }
 
 //     $.get("../gallery.html", function(data){
 //     $("#display-gal").load(data);

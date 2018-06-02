@@ -181,26 +181,93 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     top: 0;
     left: 0;
     height: 0;
-    width: 50%;
+    width: 60%;
     background-color: rgba(0, 0, 0, 0.7);
     transition: .3s;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
+    /*overflow-x: hidden;*/
+    z-index: 9999;
 }
 #right-content{
     position: fixed;
     bottom: 0;
     right: 0;
     height: 0;
-    width: 50%;
+    width: 40%;
     background-color: rgba(0, 0, 0, 0.7);
     transition: .3s;
+    z-index: 9999;
 }
 .show-gal-cont{
     height: 100% !important;
 }
 .show-gal-cont img{
+    height: 100%;
+    /*width: 100%;*/
+}
+.close-gal-preview {
+    float: right;
+    color: white;
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    line-height: 0;
+}
+.close-gal-preview:hover{
+    cursor: pointer;
+}
+
+.gal-img-container {
+
+    /*display: table;*/
+    width: 80%;
+    float: right;
+    /*max-width: 700px;*/
+    height: 100%;
+    text-align: center;
+
+background-color: rgba(0,0,0,.7);
+}
+.gal-desc-container {
+
+    background-color: rgba(0,0,0,.7);
+    width: 70%;
+    height: 100%;
+    border-left: 1px solid rgba(256, 256, 256, .1);
+    padding: 20px;
+
+}
+#my-sitename a {
+
+    color: white;
+
+}
+#my-sitename a:hover{
+    text-decoration: none;
+}
+.gal-img-inner {
+
+    display: block;
+    height: 100%;
     width: 100%;
+
+}
+.item-tag {
+
+    border: 1px solid #80808033;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    display: inline-block;
+font-size: 12px;
+margin-bottom: 10px;
+}
+#my-sitename {
+
+    margin-bottom: 25px;
+
 }
 @media (max-width: 575px) {
     .card-columns {
