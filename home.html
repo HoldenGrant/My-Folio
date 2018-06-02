@@ -2,7 +2,7 @@
 	<h1>hello.</h1>
 	
 	<div id="contact-opt">	
-		<span class="email-me">
+		<span class="email-me animated">
 			<div class="opt-container">
 				<i class="fa fa-envelope" aria-hidden="true"></i>
 			</div>
@@ -10,9 +10,13 @@
 	</div>
 	<div id="email-me-form">
 		<form method="POST" action="https://formspree.io/holdengrantcausing@gmail.com">
-			<input name="_replyto" placeholder="Your email" type="email">
-			<textarea name="message" placeholder="Your message"></textarea>
-			<button type="submit">Send</button>
+			<input name="_replyto" placeholder="Your email" type="email" class="form-control">
+			<textarea name="message" placeholder="Your message" class="form-control"></textarea>
+
+			<input type="text" name="_gotcha" style="display:none"/>
+			<input type="hidden" name="_subject" value="New submission!" />
+			<input type="hidden" name="_next" value="https://site.io/thanks.html" />
+			<button type="submit" class="btn btn-primary btn-lg btn-block form-control">Send</button>
 		</form>
 	</div>
 </div>
