@@ -45,8 +45,10 @@ jQuery(function($){
     );
 
     //$(document).ready(function(){
-        $("header").load("home.html");
-        $("#display-gal").load("gallery.html");
+    $("header").load("home.html");
+    $("#display-gal").load("gallery.html");
+
+    
 
            
 
@@ -55,12 +57,12 @@ jQuery(function($){
 
     //}); 
 
-function sendMail() {
-    var name = $('#contact #name').val();
-    var email = $('#contact #email').val();
-    var message = $('#contact textarea').val();
-    window.location.href = 'mailto:holdengrantcausing@gmail.com?subject=The subject - ' + name + ' (' + email + ')' + '&body=' + message;
-};
+// function sendMail() {
+//     var name = $('#contact #name').val();
+//     var email = $('#contact #email').val();
+//     var message = $('#contact textarea').val();
+//     window.location.href = 'mailto:holdengrantcausing@gmail.com?subject=The subject - ' + name + ' (' + email + ')' + '&body=' + message;
+// };
 
 
 // function myWorks() {

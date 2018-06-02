@@ -213,7 +213,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     margin-top: 20px;
     line-height: 0;
 }
-.close-gal-preview:hover{
+.close-gal-preview:hover, #contact-opt span:hover{
     cursor: pointer;
 }
 
@@ -268,6 +268,53 @@ margin-bottom: 10px;
 
     margin-bottom: 25px;
 
+}
+#contact-opt {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+#contact-opt span {
+    height: 60px;
+    width: 60px;
+    background-color: #313131;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    box-shadow: 1px 3px 6px 2px #909090;transition: .3s;
+}
+.opt-container i {
+
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 0;
+    font-size: 25px;
+    color: #007bff;
+
+}
+.opt-container {
+
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    display: table;
+
+}
+#contact-opt span:hover{
+    margin-bottom: 30px;
+}
+#email-me-form {
+    position: fixed;
+bottom: -100%;
+left: 0;
+max-width: 500px;
+margin: auto;
+transition: .3s;
+}
+.show-email-form{
+    bottom: 0 !important;
 }
 @media (max-width: 575px) {
     .card-columns {
