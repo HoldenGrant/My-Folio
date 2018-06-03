@@ -213,7 +213,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     margin-top: 20px;
     line-height: 0;
 }
-.close-gal-preview:hover, #contact-opt span:hover{
+.close-gal-preview:hover, #contact-opt span:hover, #contact-opt a:hover{
     cursor: pointer;
 }
 
@@ -276,18 +276,18 @@ margin-bottom: 10px;
     left: 0;
     text-align: center;
 }
-#contact-opt span {
+#contact-opt span, #contact-opt a {
     height: 60px;
     width: 60px;
     background-color: #313131;
     display: inline-block;
     border-radius: 100%;
     margin-bottom: 20px;
-    box-shadow: 1px 3px 6px 2px #909090;transition: .3s;
+    box-shadow: 1px 3px 6px 2px #909090;transition: .3s;margin-left: 4px;margin-right: 4px;
 }
 .opt-container i {display: table-cell;vertical-align: middle;line-height: 0;font-size: 25px;color: #007bff;}
 .opt-container {height: 100%;width: 100%;vertical-align: middle;display: table;}
-#contact-opt span:hover{margin-bottom: 30px;}
+#contact-opt span:hover, #contact-opt a:hover{margin-bottom: 30px; text-decoration: none;}
 #email-me-form {
 position: fixed;
 bottom: -100%;
@@ -305,7 +305,15 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,.5);
 #email-me-form form .form-control{
     margin-bottom: 10px
 }
+.hit-me .opt-container i {
+    color: #00aff0;
+}
+.hit-me {
 
+    background-color: white !important;
+    border: 1px solid #00aff0;
+
+}
 .show-email-form{bottom: 110px !important;}
 @media (max-width: 575px) {
     .card-columns {

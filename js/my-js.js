@@ -48,6 +48,18 @@ jQuery(function($){
     $("header").load("home.html");
     $("#display-gal").load("gallery.html");
 
+    // if(window.location.href.indexOf('index.html') > -1) // or 0 
+    // window.location.href = window.location.href.replace('index.html', '');
+    $( "a.hit-me" ).click(function( event ) {
+      event.preventDefault();
+      // $( "<div>" )
+      //   .append( "default " + event.type + " prevented" )
+      //   .appendTo( "#log" );
+    });
+    // if(window.location.href.indexOf("thank-you") > -1) {
+    //     alert("tests");
+    // }
+
     
 
            
