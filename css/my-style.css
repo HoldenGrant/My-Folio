@@ -319,13 +319,21 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,.5);
 }
 #my-profile-opt {display: flex;}
 #my-profile-opt a {
-    background-color: transparent;
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: 1px solid;line-height: 0;margin: 0 2px;
+    background-color: rgba(256,256,256, .5);
+    padding: 5px 12px 5px 15px;
+    border-radius: 20px;color: #313131;transition: .3s;
+    border: 1px solid;line-height: 0;margin: 0 2px;font-size: 20px;
 }
 #my-profile-opt a span{
-    display: none;
+    /*display: none;*/
+    font-size: 0px;
+    transition: .3s;
+}
+#my-profile-opt a:hover span{
+    /*display: contents;*/
+    font-size: 20px;
+
+font-weight: bold;
 }
 .show-email-form{bottom: 110px !important;}
 @media (max-width: 575px) {

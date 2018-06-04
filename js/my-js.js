@@ -60,9 +60,9 @@ jQuery(function($){
     //     alert("tests");
     // }
 
-    $('.profile-btn').on('click', function(){
-        alert("still working on this");
-    });
+    // $('.profile-btn').on('click', function(){
+    //     alert("still working on this");
+    // });
 
     
 
