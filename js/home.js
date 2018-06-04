@@ -5,8 +5,8 @@ jQuery(function($){
         $(this).toggleClass('bounce close-email');
         //$(this).find('.fa-envelope').toggleClass('for-mail-btn-hide');
         //$(this).find('.fa-times').toggleClass('for-mail-btn-show');
-        $(this).find('.fa-envelope').removeClass();
-        $(this).find('i').addClass('fa fa-times');
+        //$(this).find('.fa-envelope').removeClass();
+        //$(this).find('i').addClass('fa fa-times');
         // <i class="fa fa-times" aria-hidden="true"></i>
       //   if ( $(this).hasClass('close-email') ) {
       //   	$(this).hover(
