@@ -157,7 +157,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
 .hidden {opacity: 0;}
 .visible {opacity: 1;}
 #display-gal {display: block;}
-#gallery-images-holder .card:hover, .profile-btn:hover{cursor: pointer;}
+#gallery-images-holder .card:hover, #my-profile-opt a:hover{cursor: pointer;}
 /*#loadMore {
     padding: 10px;
     text-align: center;
@@ -317,13 +317,16 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,.5);
     border: 1px solid #00aff0;
 
 }
-.profile-btn {
-    background-color: white;
+#my-profile-opt {display: flex;}
+#my-profile-opt a {
+    background-color: transparent;
     padding: 5px 10px;
     border-radius: 20px;
-    border: 1px solid;line-height: 0;
+    border: 1px solid;line-height: 0;margin: 0 2px;
 }
-
+#my-profile-opt a span{
+    display: none;
+}
 .show-email-form{bottom: 110px !important;}
 @media (max-width: 575px) {
     .card-columns {
