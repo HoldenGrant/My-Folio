@@ -57,7 +57,7 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
 #work-menu span, #home-menu span{
 	display: table-cell;
     vertical-align: middle;
-    text-align: center;
+    text-align: center;font-size: 30px;transition: .3s;
 
 }
 #work-menu:after {
@@ -227,6 +227,9 @@ url("../fonts/fontawesome4/fontawesome-webfont.svg#filename") format("svg");
     text-align: center;
 
 background-color: rgba(0,0,0,.7);
+}
+#work-menu span:hover, #home-menu span:hover{
+font-size: 65px;
 }
 .gal-desc-container {
 
